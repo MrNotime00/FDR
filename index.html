@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Diet Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="img">
+        <img src="download (1).png" alt="" width="260px" height="80px">
+        <div class="button1">
+        <input id="gain" type="gain" value="FDR Gain">
+        <input id="loss" type="loss" value="FDR Loss">
+        </div>
+ </div>
+    <div class="container">
+        
+        <h1>Fitness Diet Calculator(Weight Gain)</h1>
+        <form id="dietForm">
+            <label for="age">Age (20-50):</label>
+            <input type="number" id="age" name="age" min="20" max="50" required><br>
+
+            <label for="weight">Weight (80-100 kg):</label>
+            <input type="number" id="weight" name="weight" min="80" max="100" required><br>
+
+            <label for="height">Height (4.5-6.0 feet):</label>
+            <input type="number" id="height" name="height" step="0.01" min="4.5" max="6.0" required><br>
+
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender" required>
+                <option value=""></option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select><br>
+
+            <button type="button" id="calculateButton" onclick="calculateDiet()">Calculate Diet</button>
+        </form>
+        <div id="output" class="output"></div>
+    </div>
+    <div class="fotter" ><p>Copyright © 2023 VAVILALA VENUMADHAV, KASTURI VASANTH RAJ, KOTRA UMESH CHANDRA, YALAM RADHA KRISHNA REDDY</p></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

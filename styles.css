@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('food1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+.img{
+    background: rgba(255, 255, 255, 0.8);
+    display: flex;
+    padding-left: 55px;
+    }
+
+.container {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 50px auto;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin-top: 120px;
+}
+
+h1 {
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input, select {
+    margin: 5px;
+    font-size: 18px;
+    padding-left: 80px;
+}
+label{
+    font-size: 20px;
+}
+#gain,#loss{
+    margin-inline: 35px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.button1{
+    margin-top: 25px;
+    padding-left: 150px;
+    }
+button {
+    margin-top: 10px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+button:hover {
+    background: #45a049;
+}
+
+.output {
+    margin: 20px 0;
+    font-size: 18px;
+}
+.fotter{
+    background: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    margin-top: 50px;
+    width: 85.6%;
+    padding-left: 220px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
