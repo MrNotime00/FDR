@@ -77,11 +77,12 @@ function calculateDiet() {
             "7. Pasta with beef mince and red kidney beans, tomato and green salad with olive oil and vinegar dressing.<br>" +
             "8. Plums and reduced fat yogurt.";
     }
-    var outputDiv = document.getElementById("output");
-     
-    outputDiv.style.border = "2px solid #000"; 
-    outputDiv.style.textAlign = "left";
-    outputDiv.style.padding = "10px";
+// Display the recommendations in the output div
+ var outputDiv = document.getElementById("output");
+            
+ outputDiv.style.border = "2px solid #000";
+ outputDiv.style.textAlign = "left";
+ outputDiv.style.padding = "10px";
     
     // Display the recommendations in the output div
     var outputDiv = document.getElementById("output");
