@@ -53,8 +53,13 @@ label{
     margin-bottom: 20px;
 }
 .button1{
-    margin-top: 25px;
-    padding-left: 150px;
+    display: flex;
+    padding: 20px;
+   margin-left: 200px;
+   font-size: 18px;
+    }
+.btn1{
+        padding-right: 200px;
     }
 button {
     margin-top: 10px;
@@ -67,7 +72,7 @@ button {
     font-size: 18px;
 }
 
-button:hover {
+button:hover .button1 {
     background: #45a049;
 }
 
